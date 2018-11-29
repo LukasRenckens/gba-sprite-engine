@@ -18,7 +18,8 @@ add_library(${PROJECT_NAME}
         src/background/text_stream.cpp
         src/background/background.cpp
         src/effects/fade_out_scene.cpp
-        src/sound_control.cpp src/scene.cpp ../demos/Eigen_test1/src/main.cpp)
+        src/sound_control.cpp
+        src/scene.cpp ../Test1/src/main.cpp ../Test1/src/MyScene.cpp ../Test1/src/MyScene.h)
 
 target_include_directories(${PROJECT_NAME} PUBLIC
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
